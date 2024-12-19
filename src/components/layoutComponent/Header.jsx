@@ -23,6 +23,16 @@ function Header() {
               Contact
             </Link>
           </li>
+          <li>
+            <Link to={URLS.GUEST.SIGNUP} className="hover:underline">
+              Sign up
+            </Link>
+          </li>
+          <li>
+            <Link to={URLS.GUEST.LOGIN} className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-full hover:bg-blue-700 ">
+              Login
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
